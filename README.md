@@ -66,7 +66,7 @@
 
 Agentic-Firmenbuch.at provides a searchable interface to the entire Austrian Firmenbuch and German Handelsregister in natural language. Users can perform semantic searches, filter by financial metrics, and export results as CSV. The service offers credits starting at €50 plus VAT and a Pro plan at €79 per month plus VAT, targeting investors, M&A professionals, and researchers.
 
-**Areas:** Finanzen · Firmenbuch · Österreich · Deutschland · Daten · API
+**Areas:** Finanzen · Firmenbuch · Österreich · Deutschland · Daten
 
 ## agentic-firmenbuch-at on APIs.io
 
@@ -80,24 +80,30 @@ Everything profiled for agentic-firmenbuch-at is published on APIs.io rather tha
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentic-firmenbuch-at-mcp.yml](https://apis.io/servers/agentic-firmenbuch-at/agentic-firmenbuch-at-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentic Firmenbuch At Domain Security](https://apis.io/security/agentic-firmenbuch-at/agentic-firmenbuch-at-domain-security/)
-- [Agentic Firmenbuch At Vulnerability Disclosure](https://apis.io/security/agentic-firmenbuch-at/agentic-firmenbuch-at-vulnerability-disclosure/)
+- [agentic-firmenbuch-at Domain Security](https://apis.io/security/agentic-firmenbuch-at/agentic-firmenbuch-at-domain-security/)
+- [agentic-firmenbuch-at Vulnerability Disclosure](https://apis.io/security/agentic-firmenbuch-at/agentic-firmenbuch-at-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentic Firmenbuch At Plans Pricing](https://apis.io/plans/agentic-firmenbuch-at/agentic-firmenbuch-at-plans-pricing/)
+- [agentic-firmenbuch-at Plans Pricing](https://apis.io/plans/agentic-firmenbuch-at/agentic-firmenbuch-at-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentic Firmenbuch At Rate Limits](https://apis.io/rate-limits/agentic-firmenbuch-at/agentic-firmenbuch-at-rate-limits/)
+- [agentic-firmenbuch-at Rate Limits](https://apis.io/rate-limits/agentic-firmenbuch-at/agentic-firmenbuch-at-rate-limits/)
 
 ## Where to find this API
 
@@ -115,18 +121,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.7** — thin · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 31.7** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
+| Discoverability | 76.7 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 34.7 |
+| Operational transparency | 33.3 |
 | Developer ergonomics | 35.7 |
-| Access clarity | 63.7 |
+| Access clarity | 59.6 |
 
-**Agent readiness 8.5** — agent-aware
+**Agent readiness 3.3** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -141,7 +147,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -151,6 +157,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
 
